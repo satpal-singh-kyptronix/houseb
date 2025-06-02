@@ -17,7 +17,7 @@ const port = process.env.PORT || 5000;
 
 
 app.use(cors({
-  origin: ["http://localhost:5173","http://localhost:3000","http://localhost:3001"], // Match frontend URL
+  origin: ["http://localhost:5173","http://localhost:3000","http://localhost:3001","https://housebe.netlify.app/"], // Match frontend URL
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
